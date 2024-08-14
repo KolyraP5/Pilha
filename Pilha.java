@@ -21,8 +21,19 @@ public class Pilha {
         }
         return capacidade;
     }
+    private int vazia (int capacidade){
+        if (topo ==0) {
+            System.out.print("A pilha está vazia");
+        }
+        return capacidade;
+    }
+
+    private void imprime{
+        System.out.print("");
+    }
     public void main(String[] args) {
         inserir(5);
         cheia(10);
+        vazia(0);
     }
 }
