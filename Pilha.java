@@ -28,12 +28,19 @@ public class Pilha {
         return capacidade;
     }
 
+    private int remove (int topo){
+        topo --;
+        dados[topo] = dados;
+        return topo;
+    }
     private void imprime{
-        System.out.print("");
+        System.out.print("A pilha esta vazia");
     }
     public void main(String[] args) {
         inserir(5);
         cheia(10);
         vazia(0);
+        imprime;
+        remove(1);
     }
 }
